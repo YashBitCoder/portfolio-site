@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <button id="ham-menu">
+            <img src="assets/images/hamberger.svg" alt="ham">
+        </button>
+
+        <div class="mobile-nav">
+            <button id="times">
+                <img src="assets/images/times.svg" alt="times">
+            </button>
+            <ul>
+                <li>
+                    <a href="#home">home</a>
+                    <img src="assets/images/arrow.svg" alt="arrow">
+                </li>
+                <li>
+                    <a href="#about">about</a>
+                    <img src="assets/images/arrow.svg" alt="arrow">
+                </li>
+                <li>
+                    <a href="#service">service</a>
+                    <img src="assets/images/arrow.svg" alt="arrow">
+                </li>
+                <li>
+                    <a href="#review">review</a>
+                    <img src="assets/images/arrow.svg" alt="arrow">
+                </li>
+                <li>
+                    <a href="#blog">blog</a>
+                    <img src="assets/images/arrow.svg" alt="arrow">
+                </li>
+                <li>
+                    <a href="#cont">contact</a>
+                    <img src="assets/images/arrow.svg" alt="arrow">
+                </li>
+            </ul>
+        </div>
+
+        <header>
+            <div class="head-container">
+                <nav class="header-nav flex items-center justify-between">
+                    <div class="left flex items-center">
+                        <img src="assets/images/logo.svg" alt="logo">
+                        <div class="nav-links">
+                            <a href="#home">home</a>
+                            <a href="#about">about</a>
+                            <a href="#service">service</a>
+                            <a href="#review">review</a>
+                            <a href="#blog">blog</a>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <button onclick="scrollToContact()">contact</button>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="hero-container" id="home">
+                <div class="hero-div flex">
+                    <div class="hero-img flex">
+                        <img src="assets/images/man.png" alt="hero-img">
+                    </div>
+                    <div class="hero-info flex">
+                        <h3>Johnathan Vics</h3>
+                        <h1><span style="color: #FFFFFF;">I’m a Creative</span> Designer</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                        <button>Download cv</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+        <div class="about-me flex justify-between items-center" id="about">
+            <div class="about-img">
+                <img src="assets/images/man-2.png" alt="about-img" style="background-color: aqua;">
+            </div>
+            <div class="about-info flex">
+                <h2><span style="color: #181818;">About</span> Me</span></h2>
+                <h3>Hello! i’m Johnathan Vics.</h3> 
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut.labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                
+                <div class="social-icons">
+                    <a href="#"><img src="assets/images/db.svg" alt="db"></a>
+                    <a href="#"><img src="assets/images/fb.svg" alt="fb"></a>
+                    <a href="#"><img src="assets/images/tw (2).svg" alt="tw"></a>
+                    <a href="#"><img src="assets/images/pin.svg" alt="pin"></a>
+                    <a href="#"><img src="assets/images/ig.svg" alt="ig"></a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="services" id="service">
+            <div class="service-head flex justify-content items-center">
+                <h2><span style="color: #3DCFD3">Our</span> Services</h2>
+                <p>We provide high standar clean website for your business solutions</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card flex items-center justify-content">
+                    <div class="s-logo flex items-center justify-content">
+                        <img src="assets/images/brush.svg" alt="">
+                    </div>
+                    <div class="s-info flex items-center justify-content">
+                        <h2>Graphic Design</h2>
+                        <p>There are many variations of passages of but the majority have suffered alteration in some form.</p>
+                    </div>
+                </div>
+                <div class="service-card flex items-center justify-content">
+                    <div class="s-logo flex items-center justify-content">
+                        <img src="assets/images/code.svg" alt="">
+                    </div>
+                    <div class="s-info flex items-center justify-content">
+                        <h2>Graphic Design</h2>
+                        <p>There are many variations of passages of but the majority have suffered alteration in some form.</p>
+                    </div>
+                </div>
+                <div class="service-card flex items-center justify-content">
+                    <div class="s-logo flex items-center justify-content">
+                        <img src="assets/images/bag.svg" alt="">
+                    </div>
+                    <div class="s-info flex items-center justify-content">
+                        <h2>Graphic Design</h2>
+                        <p>There are many variations of passages of but the majority have suffered alteration in some form.</p>
+                    </div>
+                </div>
+                <div class="service-card flex items-center justify-content">
+                    <div class="s-logo flex items-center justify-content">
+                        <img src="assets/images/monitor.svg" alt="">
+                    </div>
+                    <div class="s-info flex items-center justify-content">
+                        <h2>Graphic Design</h2>
+                        <p>There are many variations of passages of but the majority have suffered alteration in some form.</p>
+                    </div>
+                </div>
+                <div class="service-card flex items-center justify-content">
+                    <div class="s-logo flex items-center justify-content">
+                        <img src="assets/images/media.svg" alt="">
+                    </div>
+                    <div class="s-info flex items-center justify-content">
+                        <h2>Graphic Design</h2>
+                        <p>There are many variations of passages of but the majority have suffered alteration in some form.</p>
+                    </div>
+                </div>
+                <div class="service-card flex items-center justify-content">
+                    <div class="s-logo flex items-center justify-content">
+                        <img src="assets/images/phone.svg" alt="">
+                    </div>
+                    <div class="s-info flex items-center justify-content">
+                        <h2>Graphic Design</h2>
+                        <p>There are many variations of passages of but the majority have suffered alteration in some form.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="cv-cover flex items-center justify-content">
+            <h1>I Am Available For Freelancer.</h1>
+            <h3>We provide high standard clean website for your business solutions</h3>
+            <button>DOWNLOAD CV</button>
+        </div>
+        
+        <div class="reviews-container" id="review">
+            <div class="review-head flex justify-content items-center">
+                <h2><span style="color: #3DCFD3">Our</span> Clients</h2>
+                <p>We provide high standar clean website for your business solutions</p>
+            </div>
+
+            <div class="review-grid">
+                <div class="r-card flex item-center justify-content">
+                    <img src="assets/images/lady.png" alt="lady">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, animi!</p>
+                    <span> -John Doel, Company ABX</span>
+                </div>
+                <div class="r-card flex item-center justify-content">
+                    <img src="assets/images/lady.png" alt="lady">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, animi!</p>
+                    <span> -John Doel, Company ABX</span>
+                </div>
+                <div class="r-card flex item-center justify-content">
+                    <img src="assets/images/lady.png" alt="lady">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, animi!</p>
+                    <span> -John Doel, Company ABX</span>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="work-container">
+            <div class="work-head flex">
+                <h2><span style="color: #3DCFD3;">Our</span> Works</h2>
+                <p>We provide high standard clean website for your business solutions</p>
+            </div>
+
+            <div class="work-grid"> 
+                <div class="w-card">
+                    <div class="c-info flex items-center justify-content">
+                        <h4>Categort</h4>
+                        <p>Web Development</p>
+                    </div>
+                    <img src="assets/images/article-ph-1.png" alt="a1">
+                </div>
+                <div class="w-card">
+                    <div class="c-info flex items-center justify-content">
+                        <h4>Categort</h4>
+                        <p>Web Development</p>
+                    </div>
+                    <img src="assets/images/article-ph-2.png" alt="a2">
+                </div>
+                <div class="w-card">
+                    <div class="c-info flex items-center justify-content">
+                        <h4>Categort</h4>
+                        <p>Web Development</p>
+                    </div>
+                    <img src="assets/images/article-ph-3.png" alt="a3">
+                </div>
+                <div class="w-card">
+                    <div class="c-info flex items-center justify-content">
+                        <h4>Categort</h4>
+                        <p>Web Development</p>
+                    </div>
+                    <img src="assets/images/article-ph-1.png" alt="a1">
+                </div>
+                <div class="w-card">
+                    <div class="c-info flex items-center justify-content">
+                        <h4>Categort</h4>
+                        <p>Web Development</p>
+                    </div>
+                    <img src="assets/images/article-ph-2.png" alt="a2">
+                </div>
+                <div class="w-card">
+                    <div class="c-info flex items-center justify-content">
+                        <h4>Categort</h4>
+                        <p>Web Development</p>
+                    </div>
+                    <img src="assets/images/article-ph-3.png" alt="a3">
+                </div>
+            </div>
+        </div>
+
+        <div class="blog-container" id="blog">
+            <div class="blog-head flex">
+                <h2><span style="color: #3DCFD3;">Our</span> Blogs</h2>
+                <p>We provide high standard clean website for your business solutions</p>
+            </div>
+
+            <div class="blog-grid">
+                <div class="blog-card">
+                    <div class="blog-img">
+                        <img src="assets/images/ph-1.png" alt="ph1">
+                    </div>
+                    <div class="blog-info">
+                        <h3><a href="#">Occusamus et iusto odio</a></h3>
+                        <span>May 12, 2024</span>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-img">
+                        <img src="assets/images/ph-2.png" alt="ph2">
+                    </div>
+                    <div class="blog-info">
+                        <h3><a href="#">Occusamus et iusto odio</a></h3>
+                        <span>May 12, 2024</span>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-img">
+                        <img src="assets/images/ph-3.png" alt="ph3">
+                    </div>
+                    <div class="blog-info">
+                        <h3><a href="#">Occusamus et iusto odio</a></h3>
+                        <span>May 12, 2024</span>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact" id="cont">
+            <div class="contact-head flex">
+                <h2>Contact <span style="color: #3DCFD3;">Us</span></h2>
+                <p>We provide high standar clean website for your business solutions</p>
+            </div>
+
+            <div class="broad-info">
+                <div class="b-card">
+                    <img src="assets/images/phone-2.svg" alt="phone2">
+                    <h1>Call Us On</h1>
+                    <p>+985 123 7856</p>
+                </div>
+                <div class="b-card">
+                    <img src="assets/images/email.svg" alt="email">
+                    <h1>Email Us At</h1>
+                    <p>support@companyname.com</p>
+                </div>
+                <div class="b-card">
+                    <img src="assets/images/office.svg" alt="office">
+                    <h1>Visit Office</h1>
+                    <p>99 S.t Jomblo Park Pekanbaru 28292. Indonesia</p>
+                </div>
+            </div>
+
+            <form class="contact-form flex item-center justify-between">
+                <div class="name-inp flex">
+                    <input type="text" placeholder="*First Name" required>
+                    <input type="text" placeholder="*Last Name" required>
+                </div>
+                <input type="email" placeholder="*Email" required>
+                <input type="text" placeholder="Subject">
+                <textarea rows="10" placeholder="*You Message" required ></textarea>
+                <button>SEND MESSAGE</button>
+            </form>
+        </div>
+
+        <footer class="foot-container flex items-center justify-content">
+            <img src="assets/images/logo.svg" alt="logo2">
+            <div class="social-icons">
+                <a href="#"><img src="assets/images/db.svg" alt="db"></a>
+                <a href="#"><img src="assets/images/fb.svg" alt="fb"></a>
+                <a href="#"><img src="assets/images/tw (2).svg" alt="tw"></a>
+                <a href="#"><img src="assets/images/pin.svg" alt="pin"></a>
+                <a href="#"><img src="assets/images/ig.svg" alt="ig"></a>
+            </div>
+            <p>Copyright 2020 © Coder's Gyan</p>
+        </footer> 
+    </div>
+</body>
+</html>
